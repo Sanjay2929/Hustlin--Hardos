@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+
+*,
+*::after,
+*::before {
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Serif',
+        serif;
+}
+
+
+body {
+    background: url(../img/png/background.png);
+}
+
+@font-face {
+    font-family: 'PerpetuaTitlingMT', serif;
+    src: url(../fonts/perpetua-titling-mt/PerpetuaTitlingMTLight2.ttf)
+}
+
+.ff_perpetual {
+    font-family: 'PerpetuaTitlingMT';
+
+}
+
+.Tweets {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.border_slider {
+    border-right: 1px solid black;
+    border-collapse: collapse;
+    border-left: 1px solid black;
+}
+
+.border_Y {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.border-y-2px {
+    border-top: 2px;
+    border-bottom: 2px;
+}
+
+.border_sides {
+    border: 2px solid black;
+}
+
+.lh_22 {
+    line-height: 22px;
+}
+
+/* COUNTER */
+.frame {
+    width: 250px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+    overflow: hidden;
+    background: transparent;
+    color: #333;
+
+
+}
+
+.slick-list {
+    padding: 0 !important;
+}
+
+
+
+.border_right {
+    border: transparent;
+    border-right: 2px solid black;
+}
+
+.border_left {
+    border: transparent;
+    border-left: 2px solid black;
+}
+
+.p12_16 {
+    padding: 12px 16px;
+}
+
+@media (max-width:768px) {
+    .text_center {
+        text-align: -webkit-center;
+    }
+}
+
+@media (min-width:992px) {
+    .max_h_570 {
+        max-height: 570px;
+    }
+}
+
+@media (min-width:768px) {
+    .border_left2 {
+        border: transparent;
+        border-left: 2px solid black;
+    }
+
+    .border_right_left {
+        border: transparent;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+}
